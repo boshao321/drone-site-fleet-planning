@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.npy
+*.npz
+*.log
+02_Demand_Prediction/data/raw/*
+!02_Demand_Prediction/data/raw/README
+07_NetworkBenefit_KStar_NoWeights/outputs/tables/*
+!07_NetworkBenefit_KStar_NoWeights/outputs/tables/README
+09_Forecasting_Rebuilt/cache/
+25_Revision/folds/*/forecasts/

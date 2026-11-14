@@ -1,0 +1,346 @@
+{
+ "best_K_M100": {
+  "floor": [
+   15,
+   44.74
+  ],
+  "point": [
+   20,
+   44.88
+  ],
+  "method": [
+   25,
+   45.04
+  ],
+  "foresight": [
+   45,
+   47.01
+  ],
+  "ceiling": [
+   45,
+   51.25
+  ],
+  "floor_K120": 42.9,
+  "method_K120": 43.15
+ },
+ "best_K_M200": {
+  "floor": [
+   38,
+   70.02
+  ],
+  "point": [
+   45,
+   70.57
+  ],
+  "method": [
+   45,
+   71.15
+  ],
+  "foresight": [
+   45,
+   73.9
+  ],
+  "ceiling": [
+   55,
+   75.85
+  ],
+  "floor_K120": 67.98,
+  "method_K120": 68.48
+ },
+ "best_K_M300": {
+  "floor": [
+   45,
+   81.48
+  ],
+  "point": [
+   45,
+   81.75
+  ],
+  "method": [
+   45,
+   82.08
+  ],
+  "foresight": [
+   90,
+   84.36
+  ],
+  "ceiling": [
+   90,
+   84.53
+  ],
+  "floor_K120": 79.49,
+  "method_K120": 80.15
+ },
+ "best_K_swap_M100": {
+  "floor": [
+   15,
+   46.17
+  ],
+  "point": [
+   25,
+   46.31
+  ],
+  "method": [
+   25,
+   46.56
+  ],
+  "foresight": [
+   45,
+   48.33
+  ],
+  "ceiling": [
+   45,
+   52.75
+  ],
+  "floor_K120": 44.38,
+  "method_K120": 44.53
+ },
+ "best_K_swap_M200": {
+  "floor": [
+   38,
+   71.94
+  ],
+  "point": [
+   38,
+   72.2
+  ],
+  "method": [
+   45,
+   72.92
+  ],
+  "foresight": [
+   45,
+   75.74
+  ],
+  "ceiling": [
+   45,
+   77.46
+  ],
+  "floor_K120": 69.88,
+  "method_K120": 70.39
+ },
+ "best_K_swap_M300": {
+  "floor": [
+   45,
+   82.59
+  ],
+  "point": [
+   45,
+   82.75
+  ],
+  "method": [
+   45,
+   83.21
+  ],
+  "foresight": [
+   90,
+   85.11
+  ],
+  "ceiling": [
+   90,
+   85.21
+  ],
+  "floor_K120": 80.57,
+  "method_K120": 81.93
+ },
+ "mech": {
+  "15": {
+   "sd": 0.5,
+   "floor_unmet300": 39.4,
+   "ceil_unmet300": 39.4,
+   "mean_req": 136.1
+  },
+  "45": {
+   "sd": 0.78,
+   "floor_unmet300": 17.2,
+   "ceil_unmet300": 15.4,
+   "mean_req": 45.5
+  },
+  "120": {
+   "sd": 0.79,
+   "floor_unmet300": 18.8,
+   "ceil_unmet300": 14.9,
+   "mean_req": 17.0
+  }
+ },
+ "pool300": {
+  "zoned45": 82.03,
+  "pooled45": 90.81,
+  "pooled_min_K38plus": 89.96,
+  "pooled_max": 90.81
+ },
+ "currency": {
+  "200 plan: best pads (pmedian K=30)": [
+   1.0,
+   5.6
+  ],
+  "200 plan: same K, other siting rule": [
+   -0.08,
+   -0.4
+  ],
+  "200 operations: pool pads within reach": [
+   4.85,
+   31.0
+  ],
+  "200 dispatch: proposed rule, no forecast": [
+   0.44,
+   2.4
+  ],
+  "200 dispatch: point forecast (AMSGCN)": [
+   0.53,
+   2.9
+  ],
+  "200 dispatch: proposed rule (AMSGCN)": [
+   1.1,
+   6.2
+  ],
+  "200 dispatch: perfect forecast": [
+   3.86,
+   24.1
+  ],
+  "200 dispatch: attainable ceiling": [
+   5.69,
+   37.1
+  ],
+  "300 plan: same K, other siting rule": [
+   -0.27,
+   -4.3
+  ],
+  "300 operations: pool pads within reach": [
+   8.77,
+   null
+  ],
+  "300 dispatch: proposed rule, no forecast": [
+   0.36,
+   7.8
+  ],
+  "300 dispatch: point forecast (AMSGCN)": [
+   0.28,
+   6.4
+  ],
+  "300 dispatch: proposed rule (AMSGCN)": [
+   0.6,
+   12.8
+  ],
+  "300 dispatch: perfect forecast": [
+   2.12,
+   71.6
+  ],
+  "300 dispatch: attainable ceiling": [
+   2.19,
+   74.6
+  ]
+ },
+ "d1_proposed38_c10_M200": {
+  "method": [
+   0.39,
+   0.89
+  ],
+  "point": [
+   -1.92,
+   0.49
+  ],
+  "point_sig_neg": 6,
+  "method_beats_point_both_folds": 18,
+  "gap": 4.59
+ },
+ "d1_proposed38_c10_M300": {
+  "method": [
+   0.16,
+   0.39
+  ],
+  "point": [
+   -1.21,
+   0.38
+  ],
+  "point_sig_neg": 6,
+  "method_beats_point_both_folds": 15,
+  "gap": 1.0
+ },
+ "d1_proposed45_c10_M200": {
+  "method": [
+   0.43,
+   1.09
+  ],
+  "point": [
+   -2.21,
+   0.53
+  ],
+  "point_sig_neg": 5,
+  "method_beats_point_both_folds": 18,
+  "gap": 5.69
+ },
+ "d1_proposed45_c10_M300": {
+  "method": [
+   0.33,
+   0.58
+  ],
+  "point": [
+   -2.19,
+   0.28
+  ],
+  "point_sig_neg": 6,
+  "method_beats_point_both_folds": 18,
+  "gap": 2.19
+ },
+ "d1_cells": 198,
+ "d1_method_sig_below_floor": 0,
+ "breakeven_cv_point_45_300": 0.54,
+ "method_G_at_cv1": 26.1,
+ "mismatch300_pp": {
+  "point": [
+   -1.93,
+   -1.22
+  ],
+  "method": [
+   0.21,
+   0.46
+  ]
+ },
+ "lead300_pp": {
+  "point_G": {
+   "15": -0.38,
+   "30": -0.42,
+   "45": -0.47,
+   "60": -0.5
+  },
+  "method_G": {
+   "15": 0.47,
+   "30": 0.48,
+   "45": 0.5,
+   "60": 0.48
+  }
+ },
+ "staircase_cap10": {
+  "25": 10,
+  "50": 10,
+  "75": 15,
+  "100": 15,
+  "125": 20,
+  "150": 20,
+  "175": 25,
+  "200": 30,
+  "250": 38,
+  "300": 45,
+  "350": 45,
+  "400": 55,
+  "500": 70,
+  "600": 70
+ },
+ "staircase_cap10_swap": {
+  "25": 15,
+  "50": 10,
+  "75": 10,
+  "100": 15,
+  "125": 20,
+  "150": 20,
+  "175": 30,
+  "200": 30,
+  "250": 38,
+  "300": 45,
+  "350": 45,
+  "400": 55,
+  "500": 55,
+  "600": 70
+ }
+}
