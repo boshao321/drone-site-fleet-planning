@@ -1,7 +1,5 @@
 # Joint Landing Site and Fleet Capacity Planning for Urban Drone Delivery under Demand Uncertainty
 
-Research materials accompanying the IEEE Access manuscript by Shao et al.
-
 ## Research overview
 
 This study evaluates landing-site networks, fleet capacity, and advance aircraft dispatch under uncertain urban delivery demand. The case study uses anonymized order records from Nanshan District, Shenzhen, and considers historical dispatch, point forecasting, residual-calibrated allocation, and zoned/pooled service benchmarks.
