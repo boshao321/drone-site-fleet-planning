@@ -1,0 +1,36 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+**/.DS_Store
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Confidential/raw operational data: never publish
+data/raw/
+data/private/
+data/confidential/
+raw_data/
+private_data/
+confidential_data/
+**/real_orders*
+**/customer_records*
+**/*credentials*
+**/*secrets*
+
+# Temporary output and logs
+*.log
+*.tmp
